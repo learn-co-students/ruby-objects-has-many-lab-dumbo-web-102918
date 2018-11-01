@@ -22,12 +22,17 @@ class Artist
   
   def songs
     Song.all.select do |song|
-  
+      if song.artist == self
+      
     end
     @songs
   end
   
   def Artist.song_count
+    Song.all.each do |song|
+       count += 1 if song.artist == self
+       
+    end
     @@song_count.size
   end
   
