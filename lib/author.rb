@@ -22,4 +22,12 @@ class Author
     Post.all.size
   end
   
+  def author_name
+    if Author.name == nil
+      nil
+    else
+      self.author.name
+    end
+  end
+  
 end
