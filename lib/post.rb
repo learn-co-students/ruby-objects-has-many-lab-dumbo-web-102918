@@ -21,7 +21,5 @@ class Post
     self.author.name
   end
   
-  def Post.count
-    @@all.size
-  end
+ 
 end
