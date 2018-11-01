@@ -7,7 +7,6 @@ class Post
   def initialize(name)
     @name = name
     @@all << self
-    @@count += 1
   end
   
   def Post.all
