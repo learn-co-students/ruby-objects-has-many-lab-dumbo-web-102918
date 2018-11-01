@@ -24,7 +24,7 @@ class Artist
   
   def Artist.song_count
     @@song_count.size
-    binding.pry 
+    # binding.pry 
   end
   
 
