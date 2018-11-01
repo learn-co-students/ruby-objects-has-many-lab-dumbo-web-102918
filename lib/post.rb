@@ -3,7 +3,6 @@ class Post
     attr_accessor :name, :author
     
     @@all = []
-    @@count = 0
   
   def initialize(name)
     @name = name
@@ -24,6 +23,6 @@ class Post
   end
   
   def Post.count
-    @@count
+      @@all.size
   end
 end
