@@ -23,7 +23,7 @@ class Author
   end
   
   def author_name
-    if Author.name == nil
+    if self.name == nil
       nil
     else
       self.author.name
