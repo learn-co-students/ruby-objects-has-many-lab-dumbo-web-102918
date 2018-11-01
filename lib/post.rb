@@ -23,6 +23,6 @@ class Post
   end
   
   def Post.count
-      @@all
+  
   end
 end
