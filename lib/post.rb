@@ -27,7 +27,6 @@ class Post
   end
   
   def Post.count
-    binding.pry
     @@count
   end
   
