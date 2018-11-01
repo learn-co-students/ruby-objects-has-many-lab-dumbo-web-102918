@@ -1,3 +1,4 @@
+require "pry"
 class Post
     attr_accessor :name, :author
     
@@ -25,6 +26,7 @@ class Post
   end
   
   def Post.count
+    binding.pry
     @@count
   end
   
