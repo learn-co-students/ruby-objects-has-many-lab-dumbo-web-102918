@@ -20,9 +20,6 @@ class Artist
     @songs << song
   end
   
-  # def songs
-  #   @songs
-  # end
   
   def Artist.song_count
     @@song_count.size
