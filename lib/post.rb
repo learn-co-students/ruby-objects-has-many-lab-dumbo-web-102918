@@ -26,7 +26,4 @@ class Post
   def Post.count
     @@count
   end
-  
-
-  
 end
