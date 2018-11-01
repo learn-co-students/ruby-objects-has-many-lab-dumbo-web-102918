@@ -22,7 +22,7 @@ class Post
   end
   
   def Post.count
-    @@all.count
+    @@all.size
   
   end
 end
