@@ -20,11 +20,8 @@ class Artist
     @songs << song
   end
   
-  
-  
-  def Artist.song_count
-    @@song_count.size
-    # binding.pry 
+  def self.song_count
+    
   end
   
 
