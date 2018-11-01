@@ -8,6 +8,7 @@ class Post
   def initialize(name)
     @name = name
     @@all << self
+    binging.pry
     @@count += 1
   end
   
