@@ -29,11 +29,11 @@ class Artist
   end
   
   def Artist.song_count
+    count = 0
     Song.all.each do |song|
        count += 1 if song.artist == self
-       
     end
-    @@song_count.size
+    count
   end
   
 
